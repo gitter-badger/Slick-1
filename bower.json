@@ -1,0 +1,29 @@
+{
+  "name": "Presentation",
+  "version": "0.1.0",
+  "authors": [
+    "Agung D L G S <agung@xtremax.com>"
+  ],
+  "description": "Dependency plugin for Presentation website",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Presentation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./js/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3",
+    "slick-carousel": "https://github.com/kenwheeler/slick.git#~1.5.8"
+  }
+}

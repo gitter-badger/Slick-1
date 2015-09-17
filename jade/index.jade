@@ -1,0 +1,57 @@
+//- index.jade
+- var title = "FrontEnd Presentation"
+- var page = "home"
+
+doctype html
+html
+
+	// header
+	include ./includes/head.jade
+
+	// body
+	body
+
+		// main
+		.slick
+			.content
+				h1.content-title Homepage
+				ul.choice
+					li(data-go='1')
+						a(href="#") To Automatic Slide No 1
+					li(data-go='5')
+						a(href="#") To Automatic Slide No 2
+					li(data-go='10')
+						a(href="#") To Automatic Slide No 3
+			.content
+				h1.content-title Automatic Slide No 1a
+			.content
+				h1.content-title Automatic Slide No 1b
+			.content
+				h1.content-title Automatic Slide No 1c
+			.content(data-end='true')
+				h1.content-title Automatic Slide No 1d
+			.content
+				h1.content-title Automatic Slide No 2a
+			.content
+				h1.content-title Automatic Slide No 2b
+			.content
+				h1.content-title Automatic Slide No 2c
+			.content
+				h1.content-title Automatic Slide No 2d
+			.content(data-end='true')
+				h1.content-title Automatic Slide No 2e
+			.content
+				h1.content-title Automatic Slide No 3a
+			.content
+				h1.content-title Automatic Slide No 3b
+			.content
+				h1.content-title Automatic Slide No 3c
+			.content
+				h1.content-title Automatic Slide No 3d
+			.content(data-end='true')
+				h1.content-title Automatic Slide No 3e
+			.content
+				h1.content-title Endpage
+				a(href="#",data-go='0') Go To Homepage
+
+		include ./includes/script.jade
